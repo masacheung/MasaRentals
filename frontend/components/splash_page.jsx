@@ -4,8 +4,7 @@ import { Route } from "react-router";
 
 const SplashPages = () => {
     <div>
-        {/* <Route exact path="/" component={Splash}/> */}
-        <h1>Hello world</h1>
+        <Route exact path="/" component={Splash}/>
     </div>
 }
 
