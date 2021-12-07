@@ -2,6 +2,8 @@ import React from "react";
 import {Switch} from "react-router-dom";
 import { Route } from "react-router";
 
+import SplashPages from "./splash_page";
+
 const App = () => (
     <div>
         {/* <Switch>
@@ -13,7 +15,8 @@ const App = () => (
             <Route exact path="/" component={SplashPages}/>
             <Route component={RoutingError} />
         </Switch> */}
-        <h1>Welcome to Masa Rentals!</h1>
+
+        <Route exact path="/" component={SplashPages}/>
     </div>
 )
 
