@@ -6,17 +6,9 @@ import SplashPages from "./splash_page";
 
 const App = () => (
     <div>
-        {/* <Switch>
-            <AuthRoute path="/login" component={LoginFormContainer} />
-            <AuthRoute path="/signup" component={SignupFormContainer}/>
-            <ProtectedRoute path="/notes" component={Main}/>
-            <ProtectedRoute path="/notebooks" component={Main}/>
-            <ProtectedRoute path="/tags" component={Main}/>
+        <Switch>
             <Route exact path="/" component={SplashPages}/>
-            <Route component={RoutingError} />
-        </Switch> */}
-
-        <Route exact path="/" component={SplashPages}/>
+        </Switch>
     </div>
 )
 
